@@ -372,7 +372,15 @@ body {
   .wrapper2 {
     flex-direction: column;
   }
-
+  .footer {
+    &__inner {
+      padding: 2vw 0;
+      justify-content: space-between;
+      width: 100%;
+      margin: 0 4vw;
+      border-top: 3px solid rgb(230, 230, 240);
+    }
+  }
   .footer-mobile {
     background: rgba(245, 245, 250, 1);
     display: flex;
