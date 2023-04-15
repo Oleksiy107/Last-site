@@ -129,14 +129,6 @@
   color: rgb(179, 179, 186);
 }
 
-* {
-  font-family: Montserrat;
-  padding: 0;
-  list-style-type: none;
-  margin: 0;
-  text-decoration: none;
-}
-
 .title--block1:hover {
   background-color: rgb(36, 163, 255);
   background-image: linear-gradient(90deg, rgb(240, 20, 90), rgb(239, 128, 128));
@@ -229,7 +221,7 @@
   border-radius: 20px;
   margin: 0 auto;
   display: block;
-  color: rgb(50, 50, 100);
+  color: #fff;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
