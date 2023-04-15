@@ -64,26 +64,11 @@
   font-weight: 400;
 }
 
-.item--background2 {
-  padding: 1vw;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  background-color: #f0145a;
-}
-.item--kyiv {
-  font-weight: 400;
-  color: rgb(50, 50, 100);
-}
-.item--number {
-  color: rgb(70, 70, 110);
-}
-.item--mobile {
-  color: rgb(179, 179, 186);
-}
-.item--mobile:hover {
+.background {
   padding: 0.5vw;
   border-radius: 10px;
-  background: rgb(230, 230, 240);
+  background-color: rgb(240, 20, 90);
+  color: #fff;
 }
 
 .footer {
@@ -870,26 +855,11 @@
   font-weight: 400;
 }
 
-.item--background2 {
-  padding: 1vw;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  background-color: #f0145a;
-}
-.item--kyiv {
-  font-weight: 400;
-  color: rgb(50, 50, 100);
-}
-.item--number {
-  color: rgb(70, 70, 110);
-}
-.item--mobile {
-  color: rgb(179, 179, 186);
-}
-.item--mobile:hover {
+.background {
   padding: 0.5vw;
   border-radius: 10px;
-  background: rgb(230, 230, 240);
+  background-color: rgb(240, 20, 90);
+  color: #fff;
 }
 
 .footer {

@@ -62,26 +62,11 @@
   font-weight: 400;
 }
 
-.item--background2 {
-  padding: 1vw;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  background-color: #f0145a;
-}
-.item--kyiv {
-  font-weight: 400;
-  color: rgb(50, 50, 100);
-}
-.item--number {
-  color: rgb(70, 70, 110);
-}
-.item--mobile {
-  color: rgb(179, 179, 186);
-}
-.item--mobile:hover {
+.background {
   padding: 0.5vw;
   border-radius: 10px;
-  background: rgb(230, 230, 240);
+  background-color: rgb(240, 20, 90);
+  color: #fff;
 }
 
 .footer {
@@ -274,7 +259,7 @@
 }
 .block1__title {
   margin: 2vw 0;
-  background-color: #2aa5a0;
+  background-color: rgb(240, 20, 90);
   background-image: linear-gradient(90deg, rgb(240, 20, 90), #ef8080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -296,7 +281,7 @@
   line-height: 44px;
   letter-spacing: 0em;
   text-align: center;
-  background-color: #2aa5a0;
+  background-color: rgb(240, 20, 90);
   background-image: linear-gradient(90deg, rgb(240, 20, 90), rgb(239, 128, 128));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -318,7 +303,7 @@
 }
 
 .title-p {
-  background-color: #2aa5a0;
+  background-color: rgb(240, 20, 90);
   background-image: linear-gradient(90deg, rgb(240, 20, 90), rgb(239, 128, 128));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

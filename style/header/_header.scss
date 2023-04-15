@@ -80,28 +80,10 @@ $gradient-background: linear-gradient(
     font-weight: 400;
   }
 }
+.background {
+  padding: 0.5vw;
 
-.item {
-  &--background2 {
-    padding: 1vw;
-    color: rgba(255, 255, 255, 1);
-
-    border-radius: 10px;
-    background-color: #f0145a;
-  }
-  &--kyiv {
-    font-weight: 400;
-    color: rgba(50, 50, 100, 1);
-  }
-  &--number {
-    color: $alt;
-  }
-  &--mobile {
-    color: rgba(179, 179, 186, 1);
-  }
-  &--mobile:hover {
-    padding: 0.5vw;
-    border-radius: 10px;
-    background: rgba(230, 230, 240, 1);
-  }
+  border-radius: 10px;
+  background-color: $accent;
+  color: #fff;
 }
