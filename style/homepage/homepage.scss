@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
-@import "./header/header";
-@import "./footer/footer";
-@import url(../style/header/style.scss);
-
+@import "../header/header";
+@import "../footer/footer";
 $bacground-color: linear-gradient(
   228.57deg,
   #323264 11.93%,
@@ -21,8 +19,6 @@ $grey-background: rgba(245, 245, 250, 1);
 $separator-grey: rgba(230, 230, 240, 1);
 $regular: rgba(50, 50, 100, 1);
 $alt: rgba(70, 70, 110, 1);
-
-@import url(../style/header/style.scss);
 
 .title {
   font-weight: 700;
@@ -77,18 +73,7 @@ $alt: rgba(70, 70, 110, 1);
   border-radius: 0;
   background: $bacground-color;
 }
-.header {
-  font-family: "Montserrat";
-  display: flex;
-  justify-content: space-between;
-  padding: 2vw 5vw;
 
-  &__name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
 .list {
   display: flex;
   gap: 1vw;
@@ -668,6 +653,10 @@ $alt: rgba(70, 70, 110, 1);
       position: relative;
       height: 500px;
     }
+    &__photo-block {
+      flex-direction: column;
+      height: 800px;
+    }
   }
   .wrap-img {
     background-image: url(../img/Symbol-фпфшт2.png);
@@ -682,12 +671,7 @@ $alt: rgba(70, 70, 110, 1);
     flex-direction: column;
     align-items: center;
   }
-  .main {
-    &__photo-block {
-      flex-direction: column;
-      height: 900px;
-    }
-  }
+
   .hamburger {
     top: 4.5em;
     right: 7%;
@@ -730,7 +714,7 @@ $alt: rgba(70, 70, 110, 1);
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-    top: 640px;
+    top: 400px;
     overflow: hidden;
     overflow-y: auto;
     margin: 0 2vw;
@@ -880,7 +864,6 @@ $alt: rgba(70, 70, 110, 1);
     justify-content: space-between;
     overflow-x: auto;
     gap: 4vw;
-
     top: 350px;
   }
 

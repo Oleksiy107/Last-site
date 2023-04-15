@@ -62,13 +62,6 @@
   font-weight: 400;
 }
 
-.background {
-  padding: 0.5vw;
-  border-radius: 10px;
-  background-color: rgb(240, 20, 90);
-  color: #fff;
-}
-
 .item--background2 {
   padding: 1vw;
   color: rgb(255, 255, 255);
@@ -137,6 +130,10 @@
   font-weight: 400;
   line-height: 20px;
   color: rgb(179, 179, 186);
+}
+
+.list-footer1__color3:hover {
+  color: rgb(240, 20, 90);
 }
 
 .footer__grid2 {
@@ -264,6 +261,13 @@
   gap: 1vw;
 }
 
+.background {
+  padding: 0.5vw;
+  border-radius: 10px;
+  background-color: rgb(240, 20, 90);
+  color: #fff;
+}
+
 .block1 {
   width: 60%;
   padding: 0 2vw 0 0;
@@ -271,7 +275,7 @@
 .block1__title {
   margin: 2vw 0;
   background-color: #2aa5a0;
-  background-image: linear-gradient(90deg, rgb(240, 20, 90), rgb(239, 128, 128));
+  background-image: linear-gradient(90deg, rgb(240, 20, 90), #ef8080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
