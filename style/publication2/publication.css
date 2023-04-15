@@ -129,8 +129,12 @@
   color: rgb(179, 179, 186);
 }
 
-body {
+* {
   font-family: Montserrat;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
 }
 
 .title--block1:hover {
@@ -205,11 +209,11 @@ body {
   border-bottom: 2px solid rgb(240, 20, 90);
 }
 
-.item {
-  font-weight: 700;
-}
 .item--kyiv-size {
   font-weight: 400;
+}
+.item--number {
+  font-weight: 700;
 }
 
 .main {
@@ -225,7 +229,7 @@ body {
   border-radius: 20px;
   margin: 0 auto;
   display: block;
-  color: #fff;
+  color: rgb(50, 50, 100);
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -253,10 +257,14 @@ body {
 }
 .title-btn--white {
   text-align: center;
+  color: rgb(50, 50, 100);
   background-color: #fff;
 }
 .title-btn--grey:hover {
   background-color: rgb(245, 245, 250);
+}
+.title-btn--grey {
+  color: rgb(50, 50, 100);
 }
 
 .publications__wrap-block {
@@ -607,7 +615,7 @@ body {
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-    top: 600px;
+    top: 500px;
     overflow: hidden;
     overflow-y: auto;
     margin: 0 2vw;

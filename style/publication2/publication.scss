@@ -19,8 +19,12 @@ $gradient-background: linear-gradient(
   #323264 57.17%,
   #643e72 87.46%
 );
-body {
+* {
   font-family: Montserrat;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 .title {
@@ -102,12 +106,14 @@ body {
 }
 
 .item {
-  font-weight: 700;
-
   &--kyiv-size {
     font-weight: 400;
   }
+  &--number {
+    font-weight: 700;
+  }
 }
+
 .main {
   padding: 5vw 0;
   background: rgba(245, 245, 250, 1);
@@ -120,7 +126,7 @@ body {
     border-radius: 20px;
     margin: 0 auto;
     display: block;
-    color: #fff;
+    color: $regular;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -149,11 +155,14 @@ body {
 
   &--white {
     text-align: center;
-
+    color: $regular;
     background-color: #fff;
   }
   &--grey:hover {
     background-color: rgba(245, 245, 250, 1);
+  }
+  &--grey {
+    color: $regular;
   }
 }
 .publications {
@@ -542,7 +551,7 @@ body {
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-    top: 600px;
+    top: 500px;
     overflow: hidden;
     overflow-y: auto;
     margin: 0 2vw;

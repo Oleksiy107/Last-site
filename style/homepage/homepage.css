@@ -130,6 +130,14 @@
   color: rgb(179, 179, 186);
 }
 
+* {
+  font-family: Montserrat;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
+}
+
 .title {
   font-weight: 700;
 }
@@ -199,7 +207,6 @@
   color: #fff;
   border-bottom: none;
 }
-
 .list2__item:hover {
   border-bottom: 2px solid #fff;
 }
@@ -219,8 +226,12 @@
   padding: 0.5vw;
   border-radius: 1vw;
 }
-.item--kyiv-size {
+.item--kyiv {
+  color: rgb(50, 50, 100);
   font-weight: 400;
+}
+.item--blue {
+  color: rgb(36, 163, 255);
 }
 
 .main {
@@ -537,10 +548,13 @@
   color: rgb(179, 179, 186);
 }
 
+.list-footer1__color:hover {
+  color: #f0145a;
+}
 .list-footer1--footer {
   color: rgb(50, 50, 100);
 }
-.list-footer1--blue {
+.list-footer1--color {
   color: rgb(36, 163, 255);
 }
 .list-footer1--main {
@@ -595,6 +609,11 @@
     -webkit-text-fill-color: transparent;
   }
 }
+@media screen and (max-width: 1024px) {
+  .photo-block__text {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header {
     display: none;
@@ -639,7 +658,7 @@
   }
   .main__photo-block {
     flex-direction: column;
-    height: 1150px;
+    height: 1000px;
   }
   .wrapper {
     display: flex;
@@ -701,7 +720,7 @@
   }
   .main__photo-block {
     flex-direction: column;
-    height: 800px;
+    height: 900px;
   }
   .wrap-img {
     background-image: url(../img/Symbol-фпфшт2.png);
@@ -755,7 +774,7 @@
     border-radius: 10px;
     background-color: #fff;
     position: relative;
-    top: 400px;
+    top: 500px;
     overflow: hidden;
     overflow-y: auto;
     margin: 0 2vw;
@@ -961,4 +980,4 @@
   .block {
     width: 300px;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=homepage.css.map */
