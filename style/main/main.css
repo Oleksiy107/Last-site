@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 @import "../main/main.css";
 .header {
@@ -169,6 +170,28 @@
   line-height: 46px;
 }
 
+.item--background2 {
+  padding: 1vw;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #f0145a;
+}
+.item--kyiv {
+  font-weight: 400;
+  color: rgb(50, 50, 100);
+}
+.item--number {
+  color: rgb(70, 70, 110);
+}
+.item--mobile {
+  color: rgb(179, 179, 186);
+}
+.item--mobile:hover {
+  padding: 0.5vw;
+  border-radius: 10px;
+  background: rgb(230, 230, 240);
+}
+
 .text {
   font-weight: 400;
 }
@@ -204,10 +227,10 @@
   position: relative;
 }
 .photo__title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute; /* Абсолютное позиционирование для оверлея */
+  top: 50%; /* Расположить оверлей по вертикали на 50% от верхнего края контейнера */
+  left: 50%; /* Расположить оверлей по горизонтали на 50% от левого края контейнера */
+  transform: translate(-50%, -50%); /* Переместить оверлей на половину его ширины и высоты назад, чтобы он оказался по центру */
   color: #fff;
   font-size: 86px;
   font-weight: 700;
@@ -801,4 +824,11 @@
   .logo-burger img {
     width: 60vw;
   }
-}/*# sourceMappingURL=about-us.css.map */
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Montserrat;
+}/*# sourceMappingURL=main.css.map */
