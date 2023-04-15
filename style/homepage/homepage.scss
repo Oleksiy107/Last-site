@@ -211,10 +211,11 @@ $alt: rgba(70, 70, 110, 1);
   color: $color-text-li;
   gap: 2vw;
   align-items: flex-end;
-  &--color {
-    color: $accent;
+  &__customer {
+    text-align: right;
   }
   &--color {
+    color: $accent;
     background-color: #2aa5a0;
     background-image: linear-gradient(
       90deg,
@@ -466,15 +467,17 @@ $alt: rgba(70, 70, 110, 1);
   }
 }
 .list-footer1 {
-  &__color:hover {
+  &--color2 {
+    font-weight: 700;
+    color: $active;
+  }
+  &--color2:hover {
     color: #f0145a;
   }
   &--footer {
     color: $regular;
   }
-  &--color {
-    color: $active;
-  }
+
   &--main {
     color: $alt;
   }
