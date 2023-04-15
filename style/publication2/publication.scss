@@ -165,6 +165,11 @@ $gradient-background: linear-gradient(
     color: $regular;
   }
 }
+.footer-mobile {
+  &__color {
+    font-weight: 700;
+  }
+}
 .publications {
   &__wrap-block {
     padding: 4vw 6vw;

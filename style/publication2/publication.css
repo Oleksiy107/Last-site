@@ -267,6 +267,10 @@
   color: rgb(50, 50, 100);
 }
 
+.footer-mobile__color {
+  font-weight: 700;
+}
+
 .publications__wrap-block {
   padding: 4vw 6vw;
   display: grid;
