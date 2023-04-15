@@ -236,7 +236,15 @@ $gradient-background: linear-gradient(
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.footer {
+  display: flex;
+  justify-content: center;
+  &__inner {
+    width: 90%;
+    padding: 2vw 0;
+    border-top: 2px solid rgba(230, 230, 240, 1);
+  }
+}
 @media screen and(max-width:3000px) {
   .footer-mobile {
     display: none;
@@ -593,7 +601,7 @@ $gradient-background: linear-gradient(
     padding: 4vw 0;
     border-radius: 10px;
     font-weight: 700;
-    
+
     text-decoration: none;
     color: rgba(36, 163, 255, 1);
     font-size: 2em;

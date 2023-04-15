@@ -338,6 +338,16 @@
   -webkit-text-fill-color: transparent;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer__inner {
+  width: 90%;
+  padding: 2vw 0;
+  border-top: 2px solid rgb(230, 230, 240);
+}
+
 @media screen and (max-width: 3000px) {
   .footer-mobile {
     display: none;
